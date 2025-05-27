@@ -13,7 +13,7 @@ recognizer = sr.Recognizer()
 engine = pyttsx3.init()
 
 
-genai.configure(api_key="AIzaSyA07YOgtBKBvH9kaZaMhI6T34KbZHhOuuE")  #your actual key
+genai.configure(api_key="enter your own API key")  #your actual key
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 
